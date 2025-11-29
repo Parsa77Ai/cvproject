@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="hero-content">
+              <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span class="highlight">Parsa Otadi</span></h1>
+              <h2 data-aos="fade-up" data-aos-delay="300">Creative <span class="typed" data-typed-items="UI/UX Designer, Web Developer, Ai Programer, Brand Strategist"></span></h2>
+              <p data-aos="fade-up" data-aos-delay="400">I am Parsa Otadi, a passionate and dedicated professional with a strong background in Python and Django. I have experience in developing desktop and web applications, working with databases like SQLite and SQL Server, and building interactive interfaces. I am always eager to learn new technologies and improve my skills.
+
+My goal is to deliver high-quality solutions, solve challenging problems, and create projects that make a difference. I enjoy working both independently and as part of a team, and I am committed to staying up-to-date with the latest trends in software development.</p>
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
+                <a href="{% url 'cvapp:portfolio'%}" class="btn btn-primary">View My Work</a>
+                <a href="{% url 'cvapp:contact'%}" class="btn btn-outline">Get In Touch</a>
+              </div>
+              <div class="social-links" data-aos="fade-up" data-aos-delay="600">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+              <div class="image-wrapper">
+                <img src="{% static 'assets/img/profile/profile-square-11.webp'%}" alt="Sarah Mitchell" class="img-fluid">
+                <div class="floating-elements">
+                  <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
+                    <i class="bi bi-palette"></i>
+                    <span>AI</span>
+                  </div>
+                  <div class="floating-card code" data-aos="fade-right" data-aos-delay="800">
+                    <i class="bi bi-code-slash"></i>
+                    <span>Code</span>
+                  </div>
+                  <div class="floating-card creativity" data-aos="fade-up" data-aos-delay="900">
+                    <i class="bi bi-lightbulb"></i>
+                    <span>Develop</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+ {% endblock %}

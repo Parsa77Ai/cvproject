@@ -1,0 +1,402 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <main class="main">
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>The key to success is continued patience.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Intro + Photo -->
+        <div class="row align-items-center justify-content-between gy-5 mb-5">
+          <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
+            <div class="intro-content">
+              <span class="eyebrow">Hello there</span>
+              <h2 class="headline">Hello! I’m Parsa Otadi,</h2>
+              <p class="lead">
+                Hello! I’m Parsa Otadi, a dedicated and passionate programmer with a strong focus on Python and Django. Over the years, I have gained experience in developing desktop applications with Tkinter, creating web applications using Django, and managing databases such as SQLite and SQL Server. I enjoy building projects that are both functional and user-friendly.
+
+I am a quick learner and problem solver who enjoys taking on new challenges. I believe in continuously improving my skills and keeping up with the latest technologies. My goal is to deliver high-quality solutions while collaborating effectively with teams or working independently.
+              </p>
+              <p>
+               In addition to programming, I have a keen interest in exploring AI technologies and expanding my knowledge in software development to create innovative and impactful projects.
+              </p>
+
+              <div class="cta-group">
+                <a href="#portfolio" class="btn-ghost">
+                  View My Work <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <a href="#" class="link-underline">
+                  Download Resume <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
+            <figure class="profile-figure text-center text-lg-end">
+              <img src="{% static 'assets/img/profile/profile-square-11.webp'%}" alt="Portrait of Alex" class="img-fluid profile-photo">
+            </figure>
+          </div>
+        </div>
+        <!-- End Intro + Photo -->
+
+        <!-- Skills Grid -->
+        <div class="mb-5">
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <div class="skill-item">
+                <i class="bi bi-layout-text-window"></i>
+                <h3>UI/UX</h3>
+                <p>Vivamus sagittis lacus molestie placerat.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <div class="skill-item">
+                <i class="bi bi-code-slash"></i>
+                <h3>Django</h3>
+                <p>Maecenas pharetra magna sit amet risus.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+              <div class="skill-item">
+                <i class="bi bi-phone"></i>
+                <h3>Ai programer</h3>
+                <p>Donec id elit non mi porta gravida.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="skill-item">
+                <i class="bi bi-camera"></i>
+                <h3>Python</h3>
+                <p>Aliquam euismod nunc at augue cursus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Skills Grid -->
+
+        <!-- Journey Timeline -->
+        <div class="mb-5">
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2022</time>
+                <h4>Python</h4>
+                <p>Entering the world of programming</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2023</time>
+                <h4>Web designer</h4>
+                <p>Getting started with the world of Frontend</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2024</time>
+                <h4>AI programing</h4>
+                <p>The main goal and a challenging path</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2025</time>
+                <h4>Django</h4>
+                <p>Getting started with backend programming</p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <!-- End Journey Timeline -->
+
+        <!-- Quote -->
+        <blockquote class="personal-quote text-center mb-5" data-aos="fade-down" data-aos-delay="200">
+          <p>"Building clean and meaningful experiences through thoughtful code and quiet design."</p>
+        </blockquote>
+        <!-- End Quote -->
+
+        <!-- Fun Facts -->
+        <div class="row g-3 justify-content-center">
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="120">
+            <div class="fact-pill">
+              <i class="bi bi-magic"></i>
+              <span>motivated</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="160">
+            <div class="fact-pill">
+              <i class="bi bi-headphones"></i>
+              <span>creative</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+            <div class="fact-pill">
+              <i class="bi bi-geo-alt"></i>
+              <span>Technology</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="240">
+            <div class="fact-pill">
+              <i class="bi bi-brush"></i>
+              <span>teamwork</span>
+            </div>
+          </div>
+        </div>
+        <!-- End Fun Facts -->
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>The scourge of success is laziness.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 skills-animation">
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>Python</h3>
+              <p>Sufficient proficiency in Python, including oop and...</p>
+              <span class="text-end d-block">100%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3>HTMl/CSS</h3>
+              <p>Sufficient proficiency as a back-end programmer</p>
+              <span class="text-end d-block">90%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>AI programing</h3>
+              <p>First the story</p>
+              <span class="text-end d-block">5%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-box">
+              <h3>Django</h3>
+              <p>On the path of learning and student of maktabkhone</p>
+              <span class="text-end d-block">35%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section dark-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="avatars d-flex align-items-center">
+              <img src="{% static 'assets/img/person/person-m-2.webp'%}" alt="Avatar 1" class="rounded-circle" loading="lazy">
+              <img src="{% static 'assets/img/person/person-m-3.webp'%}" alt="Avatar 2" class="rounded-circle" loading="lazy">
+              <img src="{% static 'assets/img/person/person-f-5.webp'%}" alt="Avatar 3" class="rounded-circle" loading="lazy">
+              <img src="{% static 'assets/img/person/person-m-5.webp'%}" alt="Avatar 4" class="rounded-circle" loading="lazy">
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row counters">
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <h2><span data-purecounter-start="0" data-purecounter-end="185" data-purecounter-duration="1" class="purecounter"></span>+</h2>
+                <p>Poject</p>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <h2><span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>K</h2>
+                <p>follower</p>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <h2><span data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="1" class="purecounter"></span>+</h2>
+                <p>comment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>The most successful deeds are those that conceal and make it known.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Saul Goodman</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'assets/img/person/person-m-9.webp'%}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Sara Wilsson</h3>
+                      <h4>Designer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'assets/img/person/person-f-5.webp'%}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Jena Karlis</h3>
+                      <h4>Store Owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'assets/img/person/person-f-12.webp'%}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>John Larson</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'assets/img/person/person-m-12.webp'%}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  </main>
+
+{% endblock %}

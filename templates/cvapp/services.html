@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+  <main class="main">
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Three things prevent a person from achieving success: short-term effort, little forethought, and weak judgment.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center g-5">
+
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <div class="service-content">
+                <h3>Custom Web Development</h3>
+                <p>I specialize in Custom Web Development, creating tailored web applications that meet unique business needs. With expertise in Python, Django, and modern web technologies, I build scalable and user-friendly solutions. I focus on clean, maintainable code and seamless functionality to ensure high-quality results for every project.</p>
+                <a href="{% url 'cvapp:service_details'%}" class="service-link">
+                  <span>Learn More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-phone-fill"></i>
+              </div>
+              <div class="service-content">
+                <h3>Python</h3>
+                <p>I am proficient in Python, developing efficient and scalable applications for both desktop and web. I have experience with frameworks like Django, building interactive interfaces, and managing databases such as SQLite and SQL Server. I focus on writing clean, maintainable code while continuously learning new libraries and tools to enhance my projects.</p>
+                <a href="{% url 'cvapp:service_details'%}" class="service-link">
+                  <span>Learn More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-palette2"></i>
+              </div>
+              <div class="service-content">
+                <h3>UI/UX Design</h3>
+                <p>I have a strong interest in UI/UX Design, creating intuitive and visually appealing interfaces that enhance user experience. I focus on user-centered design principles, ensuring applications are both functional and easy to navigate. By combining creativity with practical design strategies, I aim to deliver engaging and effective digital experiences.</p>
+                <a href="{% url 'cvapp:service_details'%}"  class="service-link">
+                  <span>Learn More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-bar-chart-line"></i>
+              </div>
+              <div class="service-content">
+                <h3>Digital Marketing</h3>
+                <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.</p>
+                <a href="{% url 'cvapp:service_details'%}"  class="service-link">
+                  <span>Learn More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="300">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-cloud-check"></i>
+              </div>
+              <div class="service-content">
+                <h3>Cloud Computing</h3>
+                <p>Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.</p>
+                <a href="{% url 'cvapp:service_details'%}"  class="service-link">
+                  <span>Learn More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <div class="service-content">
+                <h3>Cybersecurity Solutions</h3>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et. Proin eget tortor risus.</p>
+                <a href="{% url 'cvapp:service_details'%}"  class="service-link">
+                  <span>Learn More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+  </main>
+
+{% endblock %}
