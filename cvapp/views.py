@@ -7,7 +7,8 @@ def about_view(request):
     return render(request,'cvapp/about.html')
 
 def contact_view(request):
-    return render(request,'cvapp/contact.html')
+    context = {'country':'Iran','city':'Tehran','phonenum1':'+989123456789','phonenum2':'+9891023456789','gmil1':'otadiparsa2@gmail.com','gmial2':'otparsa@gmial.com'}
+    return render(request,'cvapp/contact.html',context)
 
 def portfolio_view(request):
     return render(request,'cvapp/portfolio.html')
